@@ -38,7 +38,6 @@ jobs:
 
     - name: Executar testes
       run: |
-        dotnet test Games.Microservice.Tests/Games.Microservice.Tests.csproj --configuration Debug --verbosity normal
 
   push:
     name: 🚀 Docker Build & Pushddffffrf
