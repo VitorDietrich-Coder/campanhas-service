@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0AF04106-E69C-4A93-903A-EC3F97CC4682}|Campanhas.Service.Microservice.Application\\Campanhas.Service.Microservice.Application.csproj|c:\\gsc\\campanhas-service\\src\\campanhas.service.microservice\\campanhas.service.microservice.application\\handlers\\createdonationcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AF04106-E69C-4A93-903A-EC3F97CC4682}|Campanhas.Service.Microservice.Application\\Campanhas.Service.Microservice.Application.csproj|solutionrelative:campanhas.service.microservice.application\\handlers\\createdonationcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF04106-E69C-4A93-903A-EC3F97CC4682}|Campanhas.Service.Microservice.Application\\Campanhas.Service.Microservice.Application.csproj|c:\\gsc\\campanhas-service\\src\\campanhas.service.microservice\\campanhas.service.microservice.application\\commands\\createdonationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AF04106-E69C-4A93-903A-EC3F97CC4682}|Campanhas.Service.Microservice.Application\\Campanhas.Service.Microservice.Application.csproj|solutionrelative:campanhas.service.microservice.application\\commands\\createdonationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC007751-3433-4341-8541-4AC17844FA6C}|Campanhas.Service.Microservice.Infra\\Campanhas.Service.Microservice.Infra.csproj|c:\\gsc\\campanhas-service\\src\\campanhas.service.microservice\\campanhas.service.microservice.infra\\mapentities\\doacaoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC007751-3433-4341-8541-4AC17844FA6C}|Campanhas.Service.Microservice.Infra\\Campanhas.Service.Microservice.Infra.csproj|solutionrelative:campanhas.service.microservice.infra\\mapentities\\doacaoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Infra\\Migrations\\20260519220105_adjusted-names-new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Campanhas.Service.Microservice.Infra\\Migrations\\20260519220105_adjusted-names-new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EC007751-3433-4341-8541-4AC17844FA6C}|Campanhas.Service.Microservice.Infra\\Campanhas.Service.Microservice.Infra.csproj|c:\\gsc\\campanhas-service\\src\\campanhas.service.microservice\\campanhas.service.microservice.infra\\mapentities\\storedevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC007751-3433-4341-8541-4AC17844FA6C}|Campanhas.Service.Microservice.Infra\\Campanhas.Service.Microservice.Infra.csproj|solutionrelative:campanhas.service.microservice.infra\\mapentities\\storedevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC007751-3433-4341-8541-4AC17844FA6C}|Campanhas.Service.Microservice.Infra\\Campanhas.Service.Microservice.Infra.csproj|c:\\gsc\\campanhas-service\\src\\campanhas.service.microservice\\campanhas.service.microservice.infra\\mapentities\\doacaoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC007751-3433-4341-8541-4AC17844FA6C}|Campanhas.Service.Microservice.Infra\\Campanhas.Service.Microservice.Infra.csproj|solutionrelative:campanhas.service.microservice.infra\\mapentities\\doacaoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC007751-3433-4341-8541-4AC17844FA6C}|Campanhas.Service.Microservice.Infra\\Campanhas.Service.Microservice.Infra.csproj|c:\\gsc\\campanhas-service\\src\\campanhas.service.microservice\\campanhas.service.microservice.infra\\mapentities\\campanhaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EC007751-3433-4341-8541-4AC17844FA6C}|Campanhas.Service.Microservice.Infra\\Campanhas.Service.Microservice.Infra.csproj|c:\\gsc\\campanhas-service\\src\\campanhas.service.microservice\\campanhas.service.microservice.infra\\security\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC007751-3433-4341-8541-4AC17844FA6C}|Campanhas.Service.Microservice.Infra\\Campanhas.Service.Microservice.Infra.csproj|solutionrelative:campanhas.service.microservice.infra\\security\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AF04106-E69C-4A93-903A-EC3F97CC4682}|Campanhas.Service.Microservice.Application\\Campanhas.Service.Microservice.Application.csproj|c:\\gsc\\campanhas-service\\src\\campanhas.service.microservice\\campanhas.service.microservice.application\\handlers\\createdonationcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AF04106-E69C-4A93-903A-EC3F97CC4682}|Campanhas.Service.Microservice.Application\\Campanhas.Service.Microservice.Application.csproj|solutionrelative:campanhas.service.microservice.application\\handlers\\createdonationcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6DFD208-2A12-4F19-98A6-24F7CC588153}|Campanhas.Service.Microservice.Api\\Campanhas.Service.Microservice.Api.csproj|c:\\gsc\\campanhas-service\\src\\campanhas.service.microservice\\campanhas.service.microservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -145,10 +149,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0AF04106-E69C-4A93-903A-EC3F97CC4682}|Campanhas.Service.Microservice.Application\\Campanhas.Service.Microservice.Application.csproj|c:\\gsc\\campanhas-service\\src\\campanhas.service.microservice\\campanhas.service.microservice.application\\handlers\\getcampaignbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AF04106-E69C-4A93-903A-EC3F97CC4682}|Campanhas.Service.Microservice.Application\\Campanhas.Service.Microservice.Application.csproj|solutionrelative:campanhas.service.microservice.application\\handlers\\getcampaignbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AF04106-E69C-4A93-903A-EC3F97CC4682}|Campanhas.Service.Microservice.Application\\Campanhas.Service.Microservice.Application.csproj|c:\\gsc\\campanhas-service\\src\\campanhas.service.microservice\\campanhas.service.microservice.application\\commands\\createdonationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AF04106-E69C-4A93-903A-EC3F97CC4682}|Campanhas.Service.Microservice.Application\\Campanhas.Service.Microservice.Application.csproj|solutionrelative:campanhas.service.microservice.application\\commands\\createdonationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AF04106-E69C-4A93-903A-EC3F97CC4682}|Campanhas.Service.Microservice.Application\\Campanhas.Service.Microservice.Application.csproj|c:\\gsc\\campanhas-service\\src\\campanhas.service.microservice\\campanhas.service.microservice.application\\behaviours\\validationbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -398,7 +398,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -414,46 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20260519220105_adjusted-names-new.cs",
-              "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Infra\\Migrations\\20260519220105_adjusted-names-new.cs",
-              "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Infra\\Migrations\\20260519220105_adjusted-names-new.cs",
-              "ToolTip": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Infra\\Migrations\\20260519220105_adjusted-names-new.cs",
-              "RelativeToolTip": "Campanhas.Service.Microservice.Infra\\Migrations\\20260519220105_adjusted-names-new.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T22:01:06.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginQueryHandler.cs",
-              "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Application\\Handlers\\LoginQueryHandler.cs",
-              "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Application\\Handlers\\LoginQueryHandler.cs",
-              "ToolTip": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Application\\Handlers\\LoginQueryHandler.cs",
-              "RelativeToolTip": "Campanhas.Service.Microservice.Application\\Handlers\\LoginQueryHandler.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAwwB8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T01:05:42.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CampaignDbContext.cs",
-              "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Infra\\Persistence\\CampaignDbContext.cs",
-              "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Infra\\Persistence\\CampaignDbContext.cs",
-              "ToolTip": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Infra\\Persistence\\CampaignDbContext.cs",
-              "RelativeToolTip": "Campanhas.Service.Microservice.Infra\\Persistence\\CampaignDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T23:59:28.478Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "20260516140727_AddFirstMigration.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Infra\\Migrations\\20260516140727_AddFirstMigration.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Infra\\Migrations\\20260516140727_AddFirstMigration.cs",
@@ -466,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "DoacaoConfiguration.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Infra\\MapEntities\\DoacaoConfiguration.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Infra\\MapEntities\\DoacaoConfiguration.cs",
@@ -479,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CampanhaConfiguration.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Infra\\MapEntities\\CampanhaConfiguration.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Infra\\MapEntities\\CampanhaConfiguration.cs",
@@ -492,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UsuarioConfiguration.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Infra\\MapEntities\\UsuarioConfiguration.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Infra\\MapEntities\\UsuarioConfiguration.cs",
@@ -505,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "SwaggerConfigurationExtensions.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Api\\Extensions\\SwaggerConfigurationExtensions.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Api\\Extensions\\SwaggerConfigurationExtensions.cs",
@@ -518,7 +479,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "CreateDonationCommandHandler.cs",
+              "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Application\\Handlers\\CreateDonationCommandHandler.cs",
+              "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Application\\Handlers\\CreateDonationCommandHandler.cs",
+              "ToolTip": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Application\\Handlers\\CreateDonationCommandHandler.cs",
+              "RelativeToolTip": "Campanhas.Service.Microservice.Application\\Handlers\\CreateDonationCommandHandler.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwC4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T00:37:19.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20260519220105_adjusted-names-new.cs",
+              "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Infra\\Migrations\\20260519220105_adjusted-names-new.cs",
+              "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Infra\\Migrations\\20260519220105_adjusted-names-new.cs",
+              "ToolTip": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Infra\\Migrations\\20260519220105_adjusted-names-new.cs",
+              "RelativeToolTip": "Campanhas.Service.Microservice.Infra\\Migrations\\20260519220105_adjusted-names-new.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T22:01:06.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "20260519215457_adjusted-names.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Infra\\Migrations\\20260519215457_adjusted-names.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Infra\\Migrations\\20260519215457_adjusted-names.cs",
@@ -531,7 +518,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "CreateDonationCommand.cs",
+              "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Application\\Commands\\CreateDonationCommand.cs",
+              "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Application\\Commands\\CreateDonationCommand.cs",
+              "ToolTip": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Application\\Commands\\CreateDonationCommand.cs",
+              "RelativeToolTip": "Campanhas.Service.Microservice.Application\\Commands\\CreateDonationCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T00:37:03.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CampaignDbContext.cs",
+              "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Infra\\Persistence\\CampaignDbContext.cs",
+              "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Infra\\Persistence\\CampaignDbContext.cs",
+              "ToolTip": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Infra\\Persistence\\CampaignDbContext.cs",
+              "RelativeToolTip": "Campanhas.Service.Microservice.Infra\\Persistence\\CampaignDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T23:59:28.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginQueryHandler.cs",
+              "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Application\\Handlers\\LoginQueryHandler.cs",
+              "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Application\\Handlers\\LoginQueryHandler.cs",
+              "ToolTip": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Application\\Handlers\\LoginQueryHandler.cs",
+              "RelativeToolTip": "Campanhas.Service.Microservice.Application\\Handlers\\LoginQueryHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T01:05:42.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "StoredEvents.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Infra\\MapEntities\\StoredEvents.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Infra\\MapEntities\\StoredEvents.cs",
@@ -544,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "RegisterDonorCommandHandler.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Application\\Handlers\\RegisterDonorCommandHandler.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Application\\Handlers\\RegisterDonorCommandHandler.cs",
@@ -557,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Infra\\Security\\JwtService.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Infra\\Security\\JwtService.cs",
@@ -570,20 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CreateDonationCommandHandler.cs",
-              "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Application\\Handlers\\CreateDonationCommandHandler.cs",
-              "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Application\\Handlers\\CreateDonationCommandHandler.cs",
-              "ToolTip": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Application\\Handlers\\CreateDonationCommandHandler.cs",
-              "RelativeToolTip": "Campanhas.Service.Microservice.Application\\Handlers\\CreateDonationCommandHandler.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAADgvyAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T00:37:19.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CorrelationIdMiddleware.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Api\\Middlewares\\CorrelationIdMiddleware.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Api\\Middlewares\\CorrelationIdMiddleware.cs",
@@ -596,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ExceptionHandlingMiddleware.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Api\\Middlewares\\ExceptionHandlingMiddleware.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Api\\Middlewares\\ExceptionHandlingMiddleware.cs",
@@ -609,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "RabbitMqPublisher.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Infra\\Messaging\\RabbitMqPublisher.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Infra\\Messaging\\RabbitMqPublisher.cs",
@@ -622,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Api\\appsettings.json",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Api\\appsettings.json",
@@ -635,7 +648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "UnauthorizedResponseMiddleware.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Api\\Middlewares\\UnauthorizedResponseMiddleware.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Api\\Middlewares\\UnauthorizedResponseMiddleware.cs",
@@ -648,7 +661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ValidationFilter.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Api\\Middlewares\\ValidationFilter.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Api\\Middlewares\\ValidationFilter.cs",
@@ -661,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "SetApplicationJsonAsDefaultFilter.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Api\\Extensions\\SetApplicationJsonAsDefaultFilter.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Api\\Extensions\\SetApplicationJsonAsDefaultFilter.cs",
@@ -674,7 +687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Api\\Program.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Api\\Program.cs",
@@ -687,7 +700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "DonationsController.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Api\\Controllers\\DonationsController.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Api\\Controllers\\DonationsController.cs",
@@ -700,7 +713,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "SuccessResponseSchemaFilter.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Api\\Extensions\\SuccessResponseSchemaFilter.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Api\\Extensions\\SuccessResponseSchemaFilter.cs",
@@ -713,7 +726,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "SerilogExtensions.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Api\\Extensions\\SerilogExtensions.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Api\\Extensions\\SerilogExtensions.cs",
@@ -726,7 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ApiVersioningExtensions.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Api\\Extensions\\ApiVersioningExtensions.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Api\\Extensions\\ApiVersioningExtensions.cs",
@@ -739,7 +752,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "CorsExtension.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Api\\Extensions\\CorsExtension.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Api\\Extensions\\CorsExtension.cs",
@@ -752,7 +765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Api\\Controllers\\AuthController.cs",
@@ -765,7 +778,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Infra\\Ioc\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Infra\\Ioc\\DependencyInjection.cs",
@@ -778,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "MVCConfigExtensions.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Api\\Extensions\\MVCConfigExtensions.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Api\\Extensions\\MVCConfigExtensions.cs",
@@ -791,7 +804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "OpenTelemetryExtensions.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Api\\Extensions\\OpenTelemetryExtensions.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Api\\Extensions\\OpenTelemetryExtensions.cs",
@@ -804,7 +817,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "CriarCampanhaCommandValidator.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Application\\Commands\\CriarCampanha\\CriarCampanhaCommandValidator.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Application\\Commands\\CriarCampanha\\CriarCampanhaCommandValidator.cs",
@@ -817,7 +830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "CriarCampanhaCommand.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Application\\Commands\\CriarCampanha\\CriarCampanhaCommand.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Application\\Commands\\CriarCampanha\\CriarCampanhaCommand.cs",
@@ -830,7 +843,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "CampanhasController.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Api\\Controllers\\CampanhasController.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Api\\Controllers\\CampanhasController.cs",
@@ -843,7 +856,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "ApiControllerBase.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Api\\Controllers\\ApiControllerBase.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Api\\Controllers\\ApiControllerBase.cs",
@@ -857,19 +870,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 36,
-              "Title": "CreateDonationCommand.cs",
-              "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Application\\Commands\\CreateDonationCommand.cs",
-              "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Application\\Commands\\CreateDonationCommand.cs",
-              "ToolTip": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Application\\Commands\\CreateDonationCommand.cs",
-              "RelativeToolTip": "Campanhas.Service.Microservice.Application\\Commands\\CreateDonationCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T00:37:03.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
               "Title": "GetCampaignByIdQueryHandler.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Application\\Handlers\\GetCampaignByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Application\\Handlers\\GetCampaignByIdQueryHandler.cs",
@@ -882,7 +882,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "AtualizarCampanhaCommandHandler.cs",
               "DocumentMoniker": "C:\\GSC\\campanhas-service\\src\\Campanhas.Service.Microservice\\Campanhas.Service.Microservice.Application\\Handlers\\AtualizarCampanhaCommandHandler.cs",
               "RelativeDocumentMoniker": "Campanhas.Service.Microservice.Application\\Handlers\\AtualizarCampanhaCommandHandler.cs",
