@@ -15,19 +15,19 @@ ARG BUILD_CONFIGURATION=Release
 WORKDIR /appsrc
 
 # Copiar csproj
-COPY src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Api/Campanhas.Service.Microservice.Api.csproj Campanhas.Service.Microservice/Campanhas.Service.Microservice.Api/
-COPY src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Application/Campanhas.Service.Microservice.Application.csproj Campanhas.Service.Microservice/Campanhas.Service.Microservice.Application/
-COPY src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Domain/Campanhas.Service.Microservice.Domain.csproj Campanhas.Service.Microservice/Campanhas.Service.Microservice.Domain/
-COPY src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Infra/Campanhas.Service.Microservice.Infra.csproj Campanhas.Service.Microservice/Campanhas.Service.Microservice.Infra/
+COPY src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Api/Campanhas.Service.Microservice.Api.csproj src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Api/
+COPY src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Application/Campanhas.Service.Microservice.Application.csproj src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Application/
+COPY src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Domain/Campanhas.Service.Microservice.Domain.csproj src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Domain/
+COPY src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Infra/Campanhas.Service.Microservice.Infra.csproj src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Infra/
 
-RUN dotnet restore /src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Api/Campanhas.Service.Microservice.Api.csproj
+# Restore
+RUN dotnet restore src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Api/Campanhas.Service.Microservice.Api.csproj
 
 # Copiar todo o código
 COPY . .
 
 # Build
 WORKDIR /appsrc/src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Api
-
 RUN dotnet build Campanhas.Service.Microservice.Api.csproj -c $BUILD_CONFIGURATION -o /app/build --no-restore
 
 # Publish
@@ -41,11 +41,11 @@ RUN dotnet publish Campanhas.Service.Microservice.Api.csproj \
 # Migrator opcional
 # =========================
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS migrator
-WORKDIR /src
+WORKDIR /appsrc
 
 COPY . .
 
-WORKDIR /src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Api
+WORKDIR /appsrc/src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Api
 
 RUN dotnet tool install --global dotnet-ef --version 9.0.0
 ENV PATH="$PATH:/root/.dotnet/tools"
