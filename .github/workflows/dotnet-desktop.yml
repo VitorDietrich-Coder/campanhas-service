@@ -62,7 +62,7 @@ jobs:
     - name: 🐳 Build e Push da imagem para ECR
       uses: docker/build-push-action@v5
       with:
-          context: .
+          context: ./src/Campanhas.Service.Microservice
           file: ./src/Campanhas.Service.Microservice/Dockerfile
           push: true
           tags: 626547610206.dkr.ecr.us-east-1.amazonaws.com/campanhas-service-api
