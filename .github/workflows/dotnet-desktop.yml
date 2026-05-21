@@ -63,6 +63,5 @@ jobs:
       uses: docker/build-push-action@v5
       with:
           context: .
-          file: ./src/Campanhas.Api/Dockerfile
           push: true
-          tags: 626547610206.dkr.ecr.us-east-1.amazonaws.com/campanhas-service-api:
+          tags: 626547610206.dkr.ecr.us-east-1.amazonaws.com/campanhas-service-api
