@@ -8,6 +8,7 @@ using Campanhas.Service.Microservice.Infra.Repositories;
 using Campanhas.Service.Microservice.Infra.Security;
 using Microsoft.EntityFrameworkCore;
 using Payments.Microservice.API.Extensions;
+using Prometheus;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -46,12 +47,25 @@ var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
 {
-    var context = scope.ServiceProvider
-        .GetRequiredService<CampaignDbContext>();
+    var context = scope.ServiceProvider.GetRequiredService<CampaignDbContext>();
 
-    await context.Database.MigrateAsync();
+    var retries = 10;
 
-    await DbInitializer.SeedAsync(context);
+    while (retries > 0)
+    {
+        try
+        {
+            await context.Database.MigrateAsync();
+
+            await DbInitializer.SeedAsync(context);
+            break;
+        }
+        catch
+        {
+            retries--;
+            await Task.Delay(5000);
+        }
+    }
 }
 
 app.UseSwaggerWithUI();
@@ -70,7 +84,13 @@ app.UseAuthentication();
 app.UseMiddleware<UnauthorizedResponseMiddleware>();
 app.UseAuthorization();
 
+app.UseHttpMetrics();
+
 app.MapControllers();
+
+app.MapHealthChecks("/health");
+
+app.MapMetrics();
 
 app.Run();
  

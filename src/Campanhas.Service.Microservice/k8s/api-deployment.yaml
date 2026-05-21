@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: campanhas-api
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: campanhas-api
+
+  template:
+    metadata:
+      labels:
+        app: campanhas-api
+
+    spec:
+      containers:
+        - name: campanhas-api
+        
+          image: vitordietrich/campanhas-service-api:latest
+            
+          imagePullPolicy: Always
+
+          ports:
+            - containerPort: 8080
+
+          env:
+            - name: ASPNETCORE_ENVIRONMENT
+              value: Development
+
+            - name: ConnectionStrings__DefaultConnection
+              value: "Server=sqlserver-service;Database=DB_Campanhas;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;"
+
+            - name: RabbitMQ__Host
+              value: rabbitmq-service
+
+            - name: RabbitMQ__Username
+              value: guest
+
+            - name: RabbitMQ__Password
+              value: guest
+
+            - name: RabbitMQ__DonationQueue
+              value: donations
