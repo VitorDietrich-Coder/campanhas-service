@@ -1,10 +1,13 @@
-﻿using Campanhas.Service.Microservice.Application.Donations.Models.Response;
- using MediatR;
+﻿
+using Campanhas.Service.Microservice.Application.Campaigns.Models.Response;
+using MediatR;
 
-namespace Games.Microservice.Application.Commands.CreateGame;
+namespace Campanhas.Service.Microservice.Application.Campaigns.Commands.CreateCampaign;
 
 public sealed record CriarCampanhaCommand(
-    string Name,
-    string Category,
-    decimal Price
-) : IRequest<DoacaoResponse>;
+    string Title,
+    string Description,
+    DateTime StartDate,
+    DateTime EndDate,
+    decimal FinancialGoal
+) : IRequest<CampanhaResponse>;
