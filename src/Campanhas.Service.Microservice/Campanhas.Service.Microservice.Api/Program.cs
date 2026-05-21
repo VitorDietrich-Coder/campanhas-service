@@ -78,7 +78,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-//app.MapHealthChecks("/health");
 
 app.UseAuthentication();
 app.UseMiddleware<UnauthorizedResponseMiddleware>();
@@ -88,7 +87,6 @@ app.UseHttpMetrics();
 
 app.MapControllers();
 
-app.MapHealthChecks("/health");
 
 app.MapMetrics();
 
