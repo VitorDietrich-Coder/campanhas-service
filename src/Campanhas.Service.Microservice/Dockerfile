@@ -15,10 +15,10 @@ ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 
 # Copiar csproj
-COPY Campanhas.Service.Microservice/Campanhas.Service.Microservice.Api/Campanhas.Service.Microservice.Api.csproj Campanhas.Service.Microservice/Campanhas.Service.Microservice.Api/
-COPY Campanhas.Service.Microservice/Campanhas.Service.Microservice.Application/Campanhas.Service.Microservice.Application.csproj Campanhas.Service.Microservice/Campanhas.Service.Microservice.Application/
-COPY Campanhas.Service.Microservice/Campanhas.Service.Microservice.Domain/Campanhas.Service.Microservice.Domain.csproj Campanhas.Service.Microservice/Campanhas.Service.Microservice.Domain/
-COPY Campanhas.Service.Microservice/Campanhas.Service.Microservice.Infra/Campanhas.Service.Microservice.Infra.csproj Campanhas.Service.Microservice/Campanhas.Service.Microservice.Infra/
+COPY src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Api/Campanhas.Service.Microservice.Api.csproj Campanhas.Service.Microservice/Campanhas.Service.Microservice.Api/
+COPY src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Application/Campanhas.Service.Microservice.Application.csproj Campanhas.Service.Microservice/Campanhas.Service.Microservice.Application/
+COPY src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Domain/Campanhas.Service.Microservice.Domain.csproj Campanhas.Service.Microservice/Campanhas.Service.Microservice.Domain/
+COPY src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Infra/Campanhas.Service.Microservice.Infra.csproj Campanhas.Service.Microservice/Campanhas.Service.Microservice.Infra/
 
 RUN dotnet restore /src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Api/Campanhas.Service.Microservice.Api.csproj
 
