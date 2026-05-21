@@ -63,4 +63,4 @@ jobs:
           context: ./src/Campanhas.Service.Microservice
           file: ./src/Campanhas.Service.Microservice/Dockerfile
           push: true
-          tags: DOCKER_USERNAME/campanhas-service-api:latest
+          tags: vitordietrich/campanhas-service-api:latest
