@@ -78,7 +78,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-
 app.UseAuthentication();
 app.UseMiddleware<UnauthorizedResponseMiddleware>();
 app.UseAuthorization();
@@ -86,7 +85,6 @@ app.UseAuthorization();
 app.UseHttpMetrics();
 
 app.MapControllers();
-
 
 app.MapMetrics();
 
