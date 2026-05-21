@@ -20,7 +20,7 @@ COPY Campanhas.Service.Microservice/Campanhas.Service.Microservice.Application/C
 COPY Campanhas.Service.Microservice/Campanhas.Service.Microservice.Domain/Campanhas.Service.Microservice.Domain.csproj Campanhas.Service.Microservice/Campanhas.Service.Microservice.Domain/
 COPY Campanhas.Service.Microservice/Campanhas.Service.Microservice.Infra/Campanhas.Service.Microservice.Infra.csproj Campanhas.Service.Microservice/Campanhas.Service.Microservice.Infra/
 
-RUN dotnet restore Campanhas.Service.Microservice/Campanhas.Service.Microservice.Api/Campanhas.Service.Microservice.Api.csproj
+RUN dotnet restore /src/Campanhas.Service.Microservice/Campanhas.Service.Microservice.Api/Campanhas.Service.Microservice.Api.csproj
 
 # Copiar todo o código
 COPY . .
