@@ -1,8 +1,8 @@
 ﻿using Campanhas.Service.Microservice.Application.Campaigns.Commands.AtualizarCampanha;
+using Campanhas.Service.Microservice.Application.Campaigns.Commands.CreateCampaign;
 using Campanhas.Service.Microservice.Application.Campaigns.DTOs;
 using Campanhas.Service.Microservice.Application.Campaigns.Models.Request;
 using Campanhas.Service.Microservice.Application.Campaigns.Queries;
-using Games.Microservice.Application.Commands.CreateGame;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
