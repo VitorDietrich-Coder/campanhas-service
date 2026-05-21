@@ -65,4 +65,4 @@ jobs:
           context: ./src/Campanhas.Service.Microservice
           file: ./src/Campanhas.Service.Microservice/Dockerfile
           push: true
-          tags: 626547610206.dkr.ecr.us-east-1.amazonaws.com/campanhas-service-api
+          tags: 626547610206.dkr.ecr.us-east-1.amazonaws.com/campanhas-service-api:latest
