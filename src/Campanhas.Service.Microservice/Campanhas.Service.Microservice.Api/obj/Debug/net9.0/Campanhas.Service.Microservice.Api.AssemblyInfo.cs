@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Campanhas.Service.Microservice.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0db26b938d94b0484cd3f2893119be305a54958e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce93da82d40ddc7b349d3aa798fe474dc5198fb8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Campanhas.Service.Microservice.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Campanhas.Service.Microservice.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

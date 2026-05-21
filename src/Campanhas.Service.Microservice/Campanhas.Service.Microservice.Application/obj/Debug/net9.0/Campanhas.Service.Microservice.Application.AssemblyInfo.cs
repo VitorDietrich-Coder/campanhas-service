@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Campanhas.Service.Microservice.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f219dea03b5fcce3824b9005d2344bbbb4e5262")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce93da82d40ddc7b349d3aa798fe474dc5198fb8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Campanhas.Service.Microservice.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Campanhas.Service.Microservice.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

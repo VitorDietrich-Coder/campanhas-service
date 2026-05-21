@@ -1,4 +1,5 @@
-﻿using Campanhas.Service.Microservice.Application.Campaigns.Commands.AtualizarCampanha;
+﻿using Azure;
+using Campanhas.Service.Microservice.Application.Campaigns.Commands.AtualizarCampanha;
 using Campanhas.Service.Microservice.Application.Campaigns.Commands.CreateCampaign;
 using Campanhas.Service.Microservice.Application.Campaigns.DTOs;
 using Campanhas.Service.Microservice.Application.Campaigns.Models.Request;
@@ -39,12 +40,9 @@ public sealed class CampaignsController : ApiControllerBase
     public async Task<ActionResult<Guid>> CreateAsync(
         [FromBody] CriarCampanhaCommand command)
     {
-        var id = await Mediator.Send(command);
+        var response = await Mediator.Send(command);
 
-        return CreatedAtAction(
-            nameof(GetByIdAsync),
-            new { id, version = "1.0" },
-            id);
+        return Created(string.Empty, response);
     }
 
     /// <summary>
