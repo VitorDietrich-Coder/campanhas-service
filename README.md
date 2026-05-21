@@ -105,7 +105,7 @@ No projeto `Campanhas.Service.Microservice.Api`, configure o arquivo `appsetting
 ```json
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost,1433;Database=CampanhasDb;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;"
+    "DefaultConnection": "Server=localhost,1433;Database=DB_Campanhas;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;"
   },
   "RabbitMQ": {
     "Host": "localhost",
@@ -114,7 +114,7 @@ No projeto `Campanhas.Service.Microservice.Api`, configure o arquivo `appsetting
     "DonationQueue": "donations"
   },
   "Jwt": {
-    "Key": "CHAVE_SUPER_SECRETA_CONEXAO_SOLIDARIA_123456789",
+    "Key": "5037baaf-7201-4b9c-b4dc-6c51306b18fa",
     "Issuer": "Campanhas.Service.Microservice",
     "Audience": "Campanhas.Service.Microservice"
   }
